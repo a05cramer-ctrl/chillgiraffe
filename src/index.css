@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #a3a78e;
+  --bg-light: #b0b49c;
+  --text: #2d2d1f;
+  --text-soft: #4a4a38;
+  --accent: #e8c547;
+  --accent-hover: #f0d060;
+  --white: #fefef6;
+  --shadow: rgba(30, 30, 20, 0.12);
+  --glow: rgba(232, 197, 71, 0.25);
+
+  font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
