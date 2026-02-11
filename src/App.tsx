@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import giraffeImg from './assets/chill-giraffe.png'
 
-const CONTRACT_ADDRESS = 'YOUR_CONTRACT_ADDRESS_HERE'
+const CONTRACT_ADDRESS = '4Av54Ras1jJi5JBS6xw1V8M366p7AomNFGiaUvcPpump'
 
 function useScrollReveal() {
   const ref = useRef<HTMLDivElement>(null)
@@ -99,7 +99,7 @@ function App() {
             <a href="#" className="btn btn-primary">
               Buy $GIRAFFE
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
+            <a href="https://x.com/chill__giraffe" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
@@ -337,7 +337,7 @@ function App() {
           <p>Join the tallest community in crypto.</p>
           <div className="button-group">
             <a href="#" className="btn btn-primary">Buy $GIRAFFE</a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
+            <a href="https://x.com/chill__giraffe" target="_blank" rel="noopener noreferrer" className="btn btn-twitter">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
               </svg>
